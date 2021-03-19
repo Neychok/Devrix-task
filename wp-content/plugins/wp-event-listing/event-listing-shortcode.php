@@ -13,8 +13,8 @@ function ney_shortcode() {
         $loop->the_post();
         ?>
         <a class="archive-event-row" href=<?php the_permalink() ?>>
-                    <h2><?php the_title(); ?></h2>
-                </a>
+            <h2><?php the_title(); ?></h2>
+        </a>
         <?php
     }
 }
