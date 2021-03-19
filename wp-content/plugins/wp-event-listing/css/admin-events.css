@@ -1,0 +1,31 @@
+.meta-row {
+  padding: 30px 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.meta-th {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.meta-td input {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .meta-row {
+    display: flex;
+    align-items: center;
+  }
+  .meta-th {
+    width: 20%;
+  }
+  .meta-td {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .meta-th {
+    width: 10%;
+  }
+}

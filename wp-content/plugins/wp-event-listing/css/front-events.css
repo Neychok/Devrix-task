@@ -1,0 +1,39 @@
+#site-content {
+  text-align: center;
+}
+
+.url {
+  display: block;
+}
+
+.add-to-calendar {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid #cd2653;
+  border-radius: 10px;
+}
+
+.add-to-calendar:hover {
+  text-decoration: underline;
+}
+
+.archive-event-row {
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  max-width: 120rem;
+  margin: 10px auto;
+  padding: 0px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.archive-event-row:hover {
+  text-decoration: underline;
+}
+
+.post-meta {
+  display: flex;
+  flex-direction: column;
+}
