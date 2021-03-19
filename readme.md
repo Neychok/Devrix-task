@@ -1,4 +1,4 @@
-#Details for /wp-admin:
+# Details for /wp-admin:
 Username: devrix-user
 Password: verystrongpasswordtotallysafe
 
