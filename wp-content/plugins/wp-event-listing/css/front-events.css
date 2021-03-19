@@ -37,3 +37,8 @@
   display: flex;
   flex-direction: column;
 }
+.map {
+  max-width: 800px !important;
+  max-height: 500px !important;
+  margin: 10px auto;
+}

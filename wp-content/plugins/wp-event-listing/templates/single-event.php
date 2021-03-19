@@ -24,6 +24,17 @@ if ( have_posts() ) {
 		Location: <?php echo esc_html($event_location); ?>
 	</p>
 
+	<iframe
+	width="300"
+	height="300"
+	class="map"
+	style="border:0"
+	loading="lazy"
+	allowfullscreen
+	src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBgEJ9Ej1oYVevS1Sbs81cRSMw86PwtS9o
+		&q=<?php echo esc_html(preg_replace('/\s+/', '_', $event_location)); ?>">
+	</iframe>
+
 	<a class="url" href="<?php echo esc_html($event_url); ?>">
 		Link to the event
     </a>
